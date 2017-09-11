@@ -1,6 +1,57 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
 *{
   box-sizing: border-box;
 }
 body{
   margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.calculator {
+  font-family: 'Quicksand', sans-serif;
+  display: flex;
+  flex-direction: column;
+justify-content: center;
+align-items: center;
+margin: 4em;
+padding: 1em;
+background-color: #2ecc71;
+color: white;
+}
+
+.block {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+
+}
+
+.numbers {
+  display: flex;
+  flex-direction: column;
+}
+.row {
+  display: flex;
+  width: 100%;
+}
+
+.bloc {
+  display: flex;
+}
+
+.display {
+  order: 2;
+  padding: 2em;
+  width: 100%;
+}
+
+.symbols {
+  order: 2;
+}
+
+.keys {
+  padding: 2em;
+  border: white;
+  border-collapse: collapse;
 }
